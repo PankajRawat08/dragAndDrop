@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .source, .target {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .item {
+    display: inline-block;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: grab;
+  }
+  
+  .item:active {
+    cursor: grabbing;
+  }
+  
+  .target.highlight {
+    border-color: red;
+  }
+  .reset{
+    margin-top: 10px;
+    width: 30%;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    background-color: lightblue;
+  }
+  
